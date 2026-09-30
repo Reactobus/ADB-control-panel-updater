@@ -20,7 +20,8 @@ Data-only репозиторий: хостит манифест обновлен
 - Источник истины по версии/сборке — **[`../ADB-control-panel`](../ADB-control-panel)**.
 
 ## Заметка
-- На момент написания `version.json` = `4.35.140`, тогда как приложение уже на 5.3.x — манифест
-  **устарел**; чинить в upstream (прогнать релиз из ADB-control-panel), а не правкой этого файла.
+- `version.json` может отставать от фактической версии приложения (`APP_VERSION` в
+  `../ADB-control-panel/config.py`); отставание чинить в upstream (прогнать релиз из
+  ADB-control-panel), а не правкой этого файла.
 
 > Общие правила — в корневом [`../CLAUDE.md`](../CLAUDE.md) и [`../WORK_RULES_PORTABLE.md`](../WORK_RULES_PORTABLE.md).
